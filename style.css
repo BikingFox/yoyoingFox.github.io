@@ -14,12 +14,14 @@ html {
 	opacity: .9;
 }
 
+
+
 #projects {
 	background: FFFFFF;
+	float: left;
+	margin-top: 150px;
+	margin-left: 150px;
 	width: 30%;
-	position: fixed;
-	top: 47%;
-	left: 50px;	
 	text-align: center;
 	opacity: .9;
 }
@@ -37,12 +39,14 @@ html {
 	color: 888888;
 }
 
+
+
 #about {
 	background: FFFFFF;
-	width: 30%;
-	position: fixed;
-	top: 47%;
-	left: 600px;	
+	float: left;
+	margin-top: 150px;
+	margin-left: 100px;
+	width: 30%;	
 	text-align: center;
 	opacity: .9;
 }
@@ -58,4 +62,8 @@ html {
 
 #about a:hover {
 	color: 888888;
+}
+
+html {
+	font-family: 'Ubuntu', sans-serif;
 }
